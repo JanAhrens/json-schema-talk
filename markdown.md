@@ -61,9 +61,9 @@ class: codehighlight, middle
   "title":   "JSON Schema",
   "speaker": "Jan Ahrens",
   "type":    "LIGHTNING_TALK",
-*  "date": {
+  "date": {
 *    "year": 2014, "month": 8, "day": 26
-*  },
+  },
   "location": {
     "name": "mindmatters",
     "latitude": 53.5625523,
@@ -139,11 +139,11 @@ application/schema+json
 {
   "type": "object",
   "properties": {
-*    "title": {
+    "title": {
 *      "type": "string",
 *      "minLength": 10,
 *      "maxLength": 20
-*    },
+    },
     "speaker":  { "type": "string" },
     "type":     { "$ref": "type.json" },
     "date":     { "$ref": "date.json" },
@@ -164,10 +164,10 @@ application/schema+json
       "minLength": 10,
       "maxLength": 20
     },
-*    "speaker": {
+    "speaker": {
 *      "type": "string",
 *      "pattern": "(Mr.|Mrs.)?[A-Za-z ]+"
-*    },
+    },
 ```
 
 ---
@@ -241,11 +241,11 @@ application/schema+json
 {
   "type": "object",
   "properties": {
-*    "year": {
+    "year": {
 *      "type": "integer",
-*      "minimum": "1000",
-*      "maximum": "9999"
-*    },
+*      "minimum": 1000,
+*      "maximum": 9999
+    },
     "month": { "type": "integer" },
     "day": { "type": "integer" }
   },
