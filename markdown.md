@@ -382,6 +382,8 @@ class: middle
 
 ---
 
-class: middle, center
+class: center, middle
 
 # Thanks!
+
+### Slides: [github.com/JanAhrens/json-schema-talk](https://github.com/JanAhrens/json-schema-talk)
