@@ -177,8 +177,8 @@ application/schema+json
 
 ```json
 {
-  "type": "string",
   "enum": [
+    null,
     "KEYNOTE",
     "TALK",
     "LIGHTNING_TALK"
@@ -315,7 +315,7 @@ class: middle
 {
   "title": "The longest title ..",
   "speaker": "Mr. Doe",
-  "type": "KEYNOTE",
+  "type": null,
   "date": {
     "year": 1999, "month": 12, "day": 6
   },
