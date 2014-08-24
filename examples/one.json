@@ -1,0 +1,13 @@
+{
+  "title":   "JSON Schema",
+  "speaker": "Jan Ahrens",
+  "type":    "LIGHTNING_TALK",
+  "date": {
+    "year": 2014, "month": 8, "day": 26
+  },
+  "location": {
+    "name": "mindmatters",
+    "latitude": 53.5625523,
+    "longitude": 9.9601225
+  }
+}

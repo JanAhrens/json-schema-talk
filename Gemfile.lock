@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json-schema (2.2.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json-schema

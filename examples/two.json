@@ -1,0 +1,12 @@
+{
+  "title": "The longest title ..",
+  "speaker": "Mr. Doe",
+  "type": null,
+  "date": {
+    "year": 1999, "month": 12, "day": 6
+  },
+  "location": {
+    "latitude":    61.5158997,
+    "longitude": -120.8996988
+  }
+}
