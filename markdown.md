@@ -362,6 +362,39 @@ class: middle
 * [github.com/balanced/balanced-api](https://github.com/balanced/balanced-api)
 
 ---
+
+class: smallerfont
+
+```cucumber
+Scenario: Create an order
+  Given I have created a customer
+  When I make a POST request to /customers/:customer_id/orders
+  Then I should get a 201 Created status code
+  And the response is valid according to the "orders" schema
+```
+--
+```json
+{
+  "type": "object",
+  "properties": {
+    "orders": {
+      "type": "array",
+      "items": {
+        "$ref": "_models/order.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "meta": ...,
+    "links": ...
+  }
+  "required": ["orders"]
+}
+```
+
+Source: [balanced-api](https://github.com/balanced/balanced-api/blob/b88a8bc505fea10a12728321903be273df417449/features/orders.feature)
+
+---
 # Further reading
 
 * [json-schema.org](http://json-schema.org)
