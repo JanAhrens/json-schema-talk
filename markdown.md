@@ -392,7 +392,7 @@ Scenario: Create an order
 }
 ```
 
-Source: [balanced-api](https://github.com/balanced/balanced-api/blob/b88a8bc505fea10a12728321903be273df417449/features/orders.feature)
+Source: [github.com/balanced/balanced-api](https://github.com/balanced/balanced-api/blob/b88a8bc505fea10a12728321903be273df417449/features/orders.feature)
 
 ---
 # Further reading
