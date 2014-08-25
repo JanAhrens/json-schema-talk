@@ -387,7 +387,7 @@ Scenario: Create an order
     },
     "meta": ...,
     "links": ...
-  }
+  },
   "required": ["orders"]
 }
 ```
