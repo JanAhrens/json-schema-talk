@@ -274,7 +274,7 @@ application/schema+json
 
 ```json
 {
-  "allOf": {
+  "allOf": [
     {
       "type": "object",
       "properties": {
@@ -283,7 +283,7 @@ application/schema+json
       "required": []
     },
     { "$ref": "http://json-schema.org/geo" }
-  }
+  ]
 }
 ```
 
